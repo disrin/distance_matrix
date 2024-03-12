@@ -2,9 +2,7 @@
 
 ## Introduction
 
-The Model to Distance Converter is a Python tool designed to transform 3D genomic models from single-cell data into comprehensive 
-distance matrices and heatmaps. By calculating pairwise Euclidean distances between genomic bins.
-
+The Model to Distance Converter transforms 3D genomic models from single-cell data into distance matrices by calculating pairwise Euclidean distances between genomic bins 
 ## Features
 
 - Generates distance matrices from `.dim` files containing 3D genomic coordinates.
@@ -26,4 +24,8 @@ libraries:
 These dependencies can be installed using pip:
 ```bash
 pip install pandas numpy matplotlib seaborn scipy
-
+```
+## Usage
+```bash
+python model2dist.py -i /path/to/your/model.dim -o /path/to/output
+```
