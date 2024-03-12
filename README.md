@@ -27,5 +27,5 @@ pip install pandas numpy matplotlib seaborn scipy
 ```
 ## Usage
 ```bash
-python model2dist.py -i /path/to/your/model.dim -o /path/to/output
+python model2distance.py -i /path/to/your/model.dim -o /path/to/output
 ```
