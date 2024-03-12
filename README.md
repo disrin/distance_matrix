@@ -27,3 +27,7 @@ These dependencies can be installed using pip:
 ```bash
 pip install pandas numpy matplotlib seaborn scipy
 
+## Usage
+
+python model2dist.py -i /path/to/your/model.3dg -o /path/to/output
+
