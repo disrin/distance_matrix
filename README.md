@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Model to Distance Converter transforms 3D genomic models from single-cell data into distance matrices by calculating pairwise Euclidean distances between genomic bins 
+The Model to Distance Converter transforms 3D genomic models from single-cell Hi-C data into distance matrices by calculating pairwise Euclidean distances between genomic bins 
 ## Features
 
 - Generates distance matrices from `.dim` files containing 3D genomic coordinates.
